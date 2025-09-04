@@ -15,8 +15,8 @@
         this.getWeatherData = function (position) {
             var lat = position.coords.latitude;
             var lon = position.coords.longitude;
-            var API_KEY = "46a5d8546cc340f69d9123207242801";
-			var url = 'http://api.weatherapi.com/v1/current.json?key=46a5d8546cc340f69d9123207242801&q=' +  lat + ',' + lon + '&lang=ru&aqi=no';
+            var API_KEY = "6a32181369fe448dbb952632250409";
+			var url = 'http://api.weatherapi.com/v1/current.json?key=6a32181369fe448dbb952632250409&q=' +  lat + ',' + lon + '&lang=ru&aqi=no';
 
             network.clear();
             network.timeout(5000);
